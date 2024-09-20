@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="importância da semântica no HTML5">
+    <meta name="author" content"eu mesmo">
+    <meta name="keywords" content="Prgrama">
+    <title>Semântica no HTML5</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            width: 90%;
+            max-width: 700px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 2.2em;
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.1em;
+            color: #34495e;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .highlight {
+            background-color: #ecf0f1;
+            padding: 10px;
+            border-left: 5px solid #3498db;
+            margin-bottom: 15px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>O que é Semântica no HTML5?</h1>
+
+        <p>
+            A semântica refere-se ao significado claro e compreensível de algo. No contexto do HTML5, o termo "semântica" está relacionado ao uso de tags que descrevem o conteúdo de forma significativa.
+        </p>
+
+        <div class="highlight">
+            <p>
+                Por exemplo, ao invés de usar apenas <code>&lt;div&gt;</code> ou <code>&lt;span&gt;</code> para tudo, agora usamos tags como <code>&lt;header&gt;</code>, <code>&lt;article&gt;</code>, <code>&lt;footer&gt;</code>, e outras para definir partes específicas da página.
+            </p>
+        </div>
+
+        <p>
+            Isso é importante porque, com o uso de tags semânticas, tanto os desenvolvedores quanto os navegadores e motores de busca entendem melhor o conteúdo. Isso melhora a acessibilidade, SEO (otimização para motores de busca) e a manutenção do código.
+        </p>
+
+        <p>
+            Portanto, o uso de semântica em HTML5 ajuda a criar páginas mais estruturadas e fáceis de entender, tanto para humanos quanto para máquinas!
+        </p>
+
+        <footer>
+            <p>Desenvolvido por @Calebe Mello.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
