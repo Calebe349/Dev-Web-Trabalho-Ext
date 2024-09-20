@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>País dos Sonhos: Canadá</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        h1 {
+            color: #003366;
+        }
+
+        p {
+            color: #333;
+            font-size: 18px;
+            padding: 20px;
+            background-color: #e6f2ff;
+            width: 80%;
+            margin: 20px auto;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+
+    <h1>País dos Sonhos: Canadá</h1>
+
+    <p>
+        Eu tenho parte da minha família no Canadá e por isso me inclino para este país. 
+        Eu gostaria de estudar lá por conta das oportunidades na área de programação e a qualidadede vida.
+        Além do inglês que vou dominar agregando muito no meu currículo.
+    </p>
+
+</body>
+</html>
