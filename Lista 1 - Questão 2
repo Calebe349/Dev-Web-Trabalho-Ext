@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Exercício de HTML5 e CSS para falar sobre aplicativos de aprendizado de programação">
+    <meta name="author" content="Seu Nome Completo">
+    <meta name="keywords" content="programação, aprendizado, Code.org, tecnologia, iniciantes">
+    <center></cente>
+      <title>Aprenda Programação com Aplicativos</title>
+      <style>
+    </center>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f9fb;
+            color: #2c3e50;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            flex-direction: column;
+        }
+
+        h1 {
+            color: #2980b9;
+            margin-bottom: 20px;
+            font-size: 2.5em;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+        }
+
+        .container {
+            background-color: #ecf0f1;
+            border-radius: 12px;
+            padding: 30px;
+            width: 80%;
+            max-width: 800px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            color: #34495e;
+        }
+
+        a {
+            color: #2980b9;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Aprenda Programação com Aplicativos</h1>
+
+    <div class="container">
+        <p>
+         Existem vários aplicativos incríveis que tornam o aprendizado mais fácil. Um exemplo é o <a href="https://code.org/" target="_blank">Code.org</a>, que oferece cursos gratuitos e interativos, perfeitos tanto para quem está começando quanto para quem quer se aprimorar. Com desafios práticos e dinâmicos, o Code.org torna o processo de aprender a programar divertido e acessível para todos."
+
+        </p>
+    </div>
+
+    <footer>
+        <p>Desenvolvido por @Calebe Mello.</p>
+    </footer>
+
+</body>
+</html>
