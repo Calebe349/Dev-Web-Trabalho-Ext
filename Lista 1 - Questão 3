@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Diferença entre linguagens">
+    <meta name="author" content="Eu mesmo">
+    <meta name="keywords" content="programa">
+    <title>Server Side vs Client Side</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background-color: #ffffff;
+            width: 90%;
+            max-width: 800px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            font-size: 2.2em;
+        }
+
+        p {
+            font-size: 1.1em;
+            color: #34495e;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            margin-left: 20px;
+            color: #34495e;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .example-box {
+            background-color: #ecf0f1;
+            padding: 15px;
+            border-left: 5px solid #3498db;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            color: #95a5a6;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Diferença entre Server Side e Client Side</h1>
+
+        <p>
+            Na programação web, as linguagens podem ser divididas em dois tipos principais: <strong>Server Side</strong> e <strong>Client Side</strong>. Cada uma tem seu papel no funcionamento de um site ou aplicativo web.
+        </p>
+
+        <div class="example-box">
+            <h2>Client Side</h2>
+            <p>
+                A programação <strong>Client Side</strong> é executada diretamente no navegador do usuário. Isso significa que o código é baixado para o computador do cliente (usuário) e é processado lá.
+            </p>
+            <p>Exemplos de linguagens Client Side:</p>
+            <ul>
+                <li>JavaScript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+        </div>
+
+        <div class="example-box">
+            <h2>Server Side</h2>
+            <p>
+                A programação <strong>Server Side</strong> ocorre no servidor. O código é executado no servidor, e o resultado é enviado ao cliente como uma página web pronta.
+            </p>
+            <p>Exemplos de linguagens Server Side:</p>
+            <ul>
+                <li>PHP</li>
+                <li>Python (com Django ou Flask)</li>
+                <li>Node.js</li>
+            </ul>
+        </div>
+
+        <footer>
+            <p>Desenvolvido por @Calebe Mello.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
